@@ -50,9 +50,9 @@ nav,li{
  
   .header{
     background:rgb(238, 192, 192);
-    background-image: url(header_bg.png);
+    background-image: url(header_bg.png),url('developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
   }
  .baner{
   display: flex;
@@ -185,9 +185,36 @@ color:#757575;
 }
 .download-btn{
   text-align: center;
+  padding-top: 50px; 
 }
- 
- 
+/* footer section style */
+footer{
+    display:flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    }
+.footer-column {
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
  
 
  

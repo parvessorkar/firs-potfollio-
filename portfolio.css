@@ -1,3 +1,6 @@
+ *{
+     
+ }
  /* font syle */
  body{
   font-family: 'Open Sans', sans-serif;
@@ -45,25 +48,61 @@ nav,li{
 }
 /* heder related style */
  
-  .heder{
-    background:rgb(243, 226, 226)
-    
+  .header{
+    background:rgb(238, 192, 192);
+    background-image: url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
   }
-  .baner{
-    
-  }
-  .about{
-    border-radius: 10px;
-    background: #FFF8F3;
-    padding: 120px;
-    margin: 130px;
-  }
-  .section-titel{
-color: #181818;
+ .baner{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 30px 0px 150px;
+ }
+ .profile{
+  width: 500px;
+ }
+ .baner-titel{
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0px;
+ }
+ .baner-heading{
+  font-size: 85px;
+  font-weight: 700;
+  margin: 5px;px;
+ }
+ .baner-content{
+  font-size: 18px;
+  font-weight: 400;
+ }
+ .baner-details{
+  max-width: 500px;
+ }
+ .section2{
+  
+ }
+ .about{
+  padding: 130px 150px;
+  background-color: #ebc6ac;
+  border-radius: 5px; 
+  margin: 130px 230px;
+ }
+ .about-heading{
+  color: #181818;
 text-align: center;
 font-weight: 700;
 font-size: 35px;
+ }
+ .about-content{
+  color:  #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+ }
 
+ 
+ 
 
-
-  }
+ 
+  

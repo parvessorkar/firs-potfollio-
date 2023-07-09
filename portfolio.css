@@ -85,8 +85,9 @@ nav,li{
  .about{
   padding: 130px 150px;
   background-color: #ebc6ac;
-  border-radius: 5px; 
-  margin: 130px 230px;
+  border-radius: 5px;
+  margin: 130px 0px; 
+  
  }
  .about-heading{
   color: #181818;
@@ -100,6 +101,18 @@ font-size: 35px;
   font-size: 18px;
   font-weight: 400;
  }
+ main{
+  max-width: 1140px;
+  margin: auto;
+ }
+ .about-info-containar{
+  display: flex;
+  justify-content: space-around;
+ }
+ .about-info-contant{
+  padding:50px ;
+ }
+
 
  
  
